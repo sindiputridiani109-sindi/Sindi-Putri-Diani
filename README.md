@@ -4,6 +4,10 @@
 
 **NIM:** 23146035
 
+**UAS :** Data Mining
+
+**Kelas :** 01
+
 ## Penjelasan Proyek
 
 Proyek ini menggunakan metode *clustering* **K-Means** untuk menganalisis
@@ -53,7 +57,7 @@ Aplikasi akan terbuka otomatis di browser pada `http://localhost:8501`.
 
 ## Link Aplikasi Streamlit yang Aktif
 
-[ISI LINK STREAMLIT KAMU DI SI]
+[ https://sindi-putri-diani-qu6imgtkafjfakv9ujcrd8.streamlit.app/]
 
 ## Struktur File
 
