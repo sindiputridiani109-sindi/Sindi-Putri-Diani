@@ -108,25 +108,22 @@ st.subheader("📍 Visualisasi Hasil Clustering")
 col1, col2 = st.columns([3, 1])
 
 with col1:
-    fig = px.scatter_mapbox(
+    fig = px.scatter(
         df,
-        lat="latitude",
-        lon="longitude",
+        x="longitude",
+        y="latitude",
         color="klaster",
         symbol="status_zona",
         hover_name="nama",
-        hover_data={"status_zona": True, "klaster": True, "latitude": ":.4f", "longitude": ":.4f"},
-        zoom=11,
+        hover_data={"status_zona": True, "klaster": True},
+        title="Persebaran Gerai Kopi berdasarkan Klaster (Latitude vs Longitude)",
         height=550,
-        mapbox_style="open-street-map",
-        title="Persebaran Gerai Kopi berdasarkan Klaster",
     )
-    # Tandai centroid tiap klaster
-    fig.add_scattermapbox(
-        lat=centroids[:, 0],
-        lon=centroids[:, 1],
+    fig.add_scatter(
+        x=centroids[:, 1],
+        y=centroids[:, 0],
         mode="markers",
-        marker=dict(size=16, symbol="star", color="black"),
+        marker=dict(size=16, symbol="x", color="black"),
         name="Pusat Klaster",
     )
     st.plotly_chart(fig, use_container_width=True)
