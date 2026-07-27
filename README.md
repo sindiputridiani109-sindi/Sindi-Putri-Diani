@@ -1,8 +1,8 @@
 # Analisis Klaster Lokasi Gerai Kopi dan Deteksi Zona Sepi
 
-**Nama:** Sindi Putri Diani
+**Nama :** Sindi Putri Diani
 
-**NIM:** 23146035
+**NIM :** 23146035
 
 **UAS :** Data Mining
 
