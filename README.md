@@ -1,6 +1,7 @@
 # Analisis Klaster Lokasi Gerai Kopi dan Deteksi Zona Sepi
 
 **Nama:** Sindi Putri Diani
+
 **NIM:** 23146035
 
 ## Penjelasan Proyek
@@ -52,7 +53,7 @@ Aplikasi akan terbuka otomatis di browser pada `http://localhost:8501`.
 
 ## Link Aplikasi Streamlit yang Aktif
 
-[ISI LINK STREAMLIT KAMU DI SINI]
+[ISI LINK STREAMLIT KAMU DI SI]
 
 ## Struktur File
 
